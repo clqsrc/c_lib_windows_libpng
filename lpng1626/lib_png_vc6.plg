@@ -1,0 +1,72 @@
+<html>
+<body>
+<pre>
+<h1>Build Log</h1>
+<h3>
+--------------------Configuration: lib_png_vc6 - Win32 Release--------------------
+</h3>
+<h3>Command Lines</h3>
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D44.tmp" with contents
+[
+/nologo /MT /W3 /GX /O2 /I "..\zlib-1.2.8" /D "PNG_BUILD_DLL" /D "WIN32" /D "NDEBUG" /D "_WINDOWS" /D "_MBCS" /D "_USRDLL" /D "LIB_PNG_VC6_EXPORTS" /Fp"Release/lib_png_vc6.pch" /YX /Fo"Release/" /Fd"Release/" /FD /c 
+"D:\test3\gd_test1\libs\lpng1626\png.c"
+"D:\test3\gd_test1\libs\lpng1626\pngerror.c"
+"D:\test3\gd_test1\libs\lpng1626\pngget.c"
+"D:\test3\gd_test1\libs\lpng1626\pngmem.c"
+"D:\test3\gd_test1\libs\lpng1626\pngread.c"
+"D:\test3\gd_test1\libs\lpng1626\pngrio.c"
+"D:\test3\gd_test1\libs\lpng1626\pngrtran.c"
+"D:\test3\gd_test1\libs\lpng1626\pngrutil.c"
+"D:\test3\gd_test1\libs\lpng1626\pngset.c"
+"D:\test3\gd_test1\libs\lpng1626\pngtrans.c"
+"D:\test3\gd_test1\libs\lpng1626\pngwio.c"
+"D:\test3\gd_test1\libs\lpng1626\pngwrite.c"
+"D:\test3\gd_test1\libs\lpng1626\pngwtran.c"
+"D:\test3\gd_test1\libs\lpng1626\pngwutil.c"
+]
+Creating command line "cl.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D44.tmp" 
+Creating temporary file "C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D45.tmp" with contents
+[
+kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ..\zlib128-dll\lib\zdll.lib  /nologo /dll /incremental:no /pdb:"Release/libpng.pdb" /machine:I386 /out:"Release/libpng.dll" /implib:"Release/libpng.lib" 
+.\Release\png.obj
+.\Release\pngerror.obj
+.\Release\pngget.obj
+.\Release\pngmem.obj
+.\Release\pngread.obj
+.\Release\pngrio.obj
+.\Release\pngrtran.obj
+.\Release\pngrutil.obj
+.\Release\pngset.obj
+.\Release\pngtrans.obj
+.\Release\pngwio.obj
+.\Release\pngwrite.obj
+.\Release\pngwtran.obj
+.\Release\pngwutil.obj
+]
+Creating command line "link.exe @C:\Users\ADMINI~1\AppData\Local\Temp\RSP2D45.tmp"
+<h3>Output Window</h3>
+Compiling...
+png.c
+pngerror.c
+pngget.c
+pngmem.c
+pngread.c
+pngrio.c
+pngrtran.c
+pngrutil.c
+pngset.c
+pngtrans.c
+pngwio.c
+pngwrite.c
+pngwtran.c
+pngwutil.c
+Linking...
+   Creating library Release/libpng.lib and object Release/libpng.exp
+
+
+
+<h3>Results</h3>
+libpng.dll - 0 error(s), 0 warning(s)
+</pre>
+</body>
+</html>
